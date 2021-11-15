@@ -29,17 +29,25 @@
 }
 .header {
   width: 100%;
+  height: 1011px;
+  /* background: url('../img/main_bg.png') center center / cover no-repeat; */
+  position: relative;
+}
+.main__bg {
+  width: 100%;
   height: 100%;
-  background: url('../img/main_bg.png') center center / cover no-repeat;
+  object-fit: cover;
+  display: flex;
 }
 .header__content {
-  min-height: 200px;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background: var(--main-bg);
   padding-top: 50px;
+  display: flex;
 }
 .navbar {
   padding: 0;
