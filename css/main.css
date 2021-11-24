@@ -317,7 +317,7 @@
 .footer {
   width: 100%;
   min-height: 200px; 
-  background: var(--bold-gray);
+  background: var(--light-gray);
   position: relative;
 }
 .footer__bg {
@@ -326,7 +326,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-
+}
+.footer__bg img {
 }
 
 
