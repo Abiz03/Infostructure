@@ -277,7 +277,7 @@
   overflow: hidden;
   position: relative;
   /* width: 487px; */
-  height: 391px;
+  max-height: 391px;
   padding: 0;
 }
 .project--item--link {
